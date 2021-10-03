@@ -1,0 +1,10 @@
+this configure on local  to  loacl ..
+
+…or create a new repository on the command line
+echo "# sulaim09" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:sulaim09/sulaim09.git
+git push -u origin main
